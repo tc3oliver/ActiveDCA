@@ -2,7 +2,7 @@
 
 **ActiveDCA** is a Python strategy class for executing dynamic cost averaging based on Bitcoin price movements and market indicators. It dynamically adjusts investments according to market conditions, allowing users to increase their exposure during undervalued market conditions and exit during overvalued situations.
 
-[Click here for the Chinese version](README-ZH.md)
+[點選這裡檢視中文版](README-ZH.md)
 
 ## Table of Contents
 
@@ -136,16 +136,19 @@ The **ActiveDCA** strategy combines several key mechanisms:
 ## Backtest Results
 
 ### 1. Bitcoin Price and Buy/Sell Signals
+
 This chart illustrates the Bitcoin price along with the buy/sell signals based on the AHR999 indicator. The strategy uses different thresholds to determine when to buy or sell Bitcoin.
 
 ![Bitcoin Price and Buy/Sell Signals](./imgs/bitcoin_price_with_buy_sell_thresholds.png)
 
 ### 2. Cash and Bitcoin Holdings Over Time
+
 This chart shows the evolution of cash and Bitcoin holdings over time. As the strategy executes, it accumulates both cash and Bitcoin based on market conditions.
 
 ![Cash and Bitcoin Holdings Over Time](./imgs/cash_and_bitcoin_holdings_with_darker_color.png)
 
 ### 3. Cumulative Investment vs Portfolio Value
+
 This chart compares the cumulative investment made by the strategy with the portfolio value, showing how the value of the portfolio grows over time and reflects the strategy's performance.
 
 ![Cumulative Investment vs Portfolio Value](./imgs/cumulative_investment_vs_portfolio_value_with_last_value.png)

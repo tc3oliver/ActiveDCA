@@ -2,7 +2,7 @@
 
 **ActiveDCA** 是一個基於比特幣價格波動和市場指標的動態成本平均策略。該策略會根據市場狀況動態調整投資額度，讓使用者在市場低估時增加持倉，在市場高估時退出市場。
 
-[點選這裡檢視英文版](README.md)
+[Click here for the English version](README.md)
 
 ## 目錄
 
@@ -136,16 +136,19 @@ backtest.generate_charts(df)
 ## 回測結果
 
 ### 1. 比特幣價格與買賣訊號
+
 此圖表顯示了比特幣價格與基於 AHR999 指標的買賣訊號。該策略使用不同的閾值來決定何時買入或賣出比特幣。
 
 ![比特幣價格與買賣訊號](./imgs/bitcoin_price_with_buy_sell_thresholds.png)
 
 ### 2. 現金與比特幣持倉變化
+
 此圖表展示了現金與比特幣持倉隨著策略執行的變化。策略根據市場狀況，累積現金和比特幣。
 
 ![現金與比特幣持倉變化](./imgs/cash_and_bitcoin_holdings_with_darker_color.png)
 
 ### 3. 累計投資與投資組合價值
+
 此圖表比較了策略的累計投資與投資組合價值，顯示了隨著時間推移，投資組合價值的增長情況及策略的表現。
 
 ![累計投資與投資組合價值](./imgs/cumulative_investment_vs_portfolio_value_with_last_value.png)
